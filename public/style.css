@@ -1,5 +1,7 @@
 body {
-	background-color: lightseagreen;
+	background-image:url('./pngtree-avocado-realistic-creative-texture-background-picture-image_1174262.jpg');
+	background-repeat: no-repeat;
+	background-size: 150%;
 	color: whitesmoke;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -7,4 +9,41 @@ body {
 .container{
 	margin: auto;
 	width: 80%;
+}
+h1{
+	text-align: center;
+	color: RGB(56, 102, 65);
+}
+h2{
+	text-align: center;
+	color: RGB(56, 102, 65);
+	font-style: italic;
+}
+h3{
+	text-align: center;
+	color: RGB(56, 102, 65);
+}
+input{
+width: 15%;
+height: fit-content;
+}
+label{
+margin-left: 30%;
+
+}
+button{
+	margin-left: 40%;
+}
+
+#create{
+	font-size: medium;
+	color: RGB(56, 102, 65);
+}
+
+img{
+	width: 50%;
+}
+li{
+	list-style: none;
+	color: RGB(56, 102, 65);
 }

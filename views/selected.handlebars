@@ -1,0 +1,14 @@
+<h2>Specials for selected stores!</h2>
+
+
+<form action="/shopList/{{id}}" method="POST">
+		{{#each specials}}
+        <div class="col-4">
+        <ul>
+      <li><img src="/avo.jpg"></li>  
+        <li>
+			<strong>{{qty}} for only R{{price}}</strong> </td>
+</li>
+	</ul>
+    </div>
+		{{/each}}

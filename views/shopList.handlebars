@@ -1,0 +1,19 @@
+<h2>All our shops</h2>
+
+<form action="/shopList" method="POST">
+   
+<div class="row" style="background-color: white;">
+
+<h3>Stores:</h3>
+  <p><a href="/new">Back</a></p>
+  {{#each list }}
+ <ul>
+     <a href="/shopList/{{id}}"><li>{{name}}</li></a>
+ </ul>
+  {{/each}}
+ 
+<br>
+<h3><a href="/new">Enter new store</a></h3>
+ </div>
+</form>
+
